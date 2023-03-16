@@ -1,4 +1,4 @@
-package javacodes;
+package javaCodes;
 
 import java.util.Scanner;
 import java.util.stream.Stream;
@@ -24,8 +24,8 @@ public class pivotIndex {
         int leftSum = 0;
         
         // Traverse the elements and add them to store the totalSum...
-        for (int ele : array)
-            totalSum += ele;
+        for (int val : array)
+            totalSum += val;
        
         // Again traverse all the elements through the for loop and store the sum of i numbers from left to right...
         for (int i = 0; i < array.length; i++) {

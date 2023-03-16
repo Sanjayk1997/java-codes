@@ -1,5 +1,4 @@
-package javacodes;
-
+package javaCodes;
 
 import java.util.Scanner;
 import java.util.stream.Stream;
